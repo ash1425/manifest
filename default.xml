@@ -659,14 +659,14 @@
   <project clone-depth="1" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle"/>
   <project clone-depth="1" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools"/>
   <project clone-depth="1" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86"/>
-  <project clone-depth="1" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86"/>
+  <project clone-depth="1" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="android-10.0.0_r39"/>
   <project clone-depth="1" name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
   <project clone-depth="1" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk"/>
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="android-10.0.0_r39"/>
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" revision="android-10.0.0_r39"/>
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" clone-depth="1" revision="android-10.0.0_r39"/>
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" clone-depth="1"revision="android-10.0.0_r39" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" clone-depth="1" revision="android-10.0.0_r39"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
@@ -675,8 +675,8 @@
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
   <project clone-depth="1" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
   <project clone-depth="1" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
-  <project clone-depth="1" name="platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86"/>
-  <project clone-depth="1" name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86"/>
+  <project clone-depth="1" name="platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86" revision="android-10.0.0_r39"/>
+  <project clone-depth="1" name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="android-10.0.0_r39"/>
   <project clone-depth="1" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
   <project clone-depth="1" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
   <project clone-depth="1" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9"/>
@@ -688,7 +688,7 @@
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc"/>
   <project clone-depth="1" name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
   <project clone-depth="1" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
-  <project clone-depth="1" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5"/>
+  <project clone-depth="1" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="android-10.0.0_r39"/>
   <project clone-depth="1" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
   <project clone-depth="1" name="platform/prebuilts/r8" path="prebuilts/r8"/>
   <project clone-depth="1" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
